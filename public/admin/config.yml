@@ -1,8 +1,8 @@
 backend:
   name: git-gateway
   branch: master
-media_folder: public/images
-public_folder: /images
+media_folder: public/images/posts
+public_folder: /images/posts
 publish_mode: editorial_workflow
 
 collections:
@@ -12,6 +12,8 @@ collections:
     extension: "mdx"
     format: "frontmatter"
     create: true
+    slug: "{{title}}"
+    identifier_field: title
     summary: "{{excerpt}}"
     fields:
       - label: "Title"
@@ -19,10 +21,8 @@ collections:
         widget: "string"
       - label: "Publish Date"
         name: "date"
-        widget: "datetime"
-        format: "Month D, Yr"
-        dateFormat: "Month D, Yr"
-        timeFormat: false
+        widget: "date"
+        format: "MMM DD, YYYY"
       - label: "Description"
         name: "excerpt"
         widget: "string"
@@ -30,7 +30,6 @@ collections:
         name: "thumbnail"
         widget: "image"
         choose_url: true
-        default: "/images/img1.jpg"
         media_library:
           config:
             multiple: true
