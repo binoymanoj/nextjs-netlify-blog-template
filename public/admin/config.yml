@@ -30,7 +30,7 @@ collections:
         name: "excerpt"
         widget: "string"
       - label: "Featured Image"
-        name: "thumbnail"
+        name: "cover_image"
         widget: "image"
         choose_url: true
         media_library:
