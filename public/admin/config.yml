@@ -9,13 +9,16 @@ collections:
   - name: "posts"
     label: "Posts"
     folder: "posts/"
-    extension: "mdx"
+    extension: "md"
     format: "frontmatter"
     create: true
-    slug: "{{title}}"
-    identifier_field: title
+    slug: "{{slug}}"
+    identifier_field: slug
     summary: "{{excerpt}}"
     fields:
+      - label: "Slug"
+        name: "slug"
+        widget: "string"
       - label: "Title"
         name: "title"
         widget: "string"
