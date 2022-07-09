@@ -9,7 +9,7 @@ export default function Home({ posts }) {
   return (
     <div>
       <Head>
-        <title>binoymanoj blog</title>
+        <title>binoymanoj_Blog</title>
       </Head>
 
       <div className="posts">
