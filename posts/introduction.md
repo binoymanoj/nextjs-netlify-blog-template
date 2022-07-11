@@ -10,7 +10,7 @@ cover_image: '/images/posts/blog-page-banner.jpg'
 
 >This blog page will help you to enhance your skills in Ethical Hacking/Cyber Security.
 
-Owner: **[binoy_manoj](instagram.com/binoy_manoj)**
+Owner: **[binoy_manoj](https://www.instagram.com/binoy_manoj/)**
 
 ## Topics that will be covered:
 * Introduction to Ethical Hacking/Cyber Security.
