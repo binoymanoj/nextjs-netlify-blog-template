@@ -12,7 +12,7 @@ export default function Home({ posts }) {
         <title>binoymanoj_Blog</title>
       </Head>
       <h5>
-      This Page will help you to enhance your skill in Ethical hacking/Cyber Security/Penetration.<br/>
+      This Page will help you to enhance your skill in Ethical hacking/Cyber Security.<br/>
       Enjoy reading...
       </h5>
       <div className="posts">

@@ -2,7 +2,7 @@
 title: 'Wifi Password cracking'
 date: 'July 8, 2022'
 excerpt: 'This blog will help you to crack wifi password using airmon-ng.'
-cover_image: '/images/posts/img1.jpg'
+cover_image: '/images/posts/mac-with-coffee.jpg'
 ---
 
 # Wifi Password Cracking with airmon-ng.
