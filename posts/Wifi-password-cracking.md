@@ -23,18 +23,18 @@ cover_image: '/images/posts/img1.jpg'
 
 Commands for installing required packages :
 ```bash
-$ sudo apt update && sudo apt upgrade -y
+sudo apt update && sudo apt upgrade -y
 sudo apt install airmon-ng airodump-ng aireplay-ng aircrack-ng
 ```
 
 To kill all processes and wifi will also be disabled :
 ```bash
-$ sudo airmon-ng check kill
+sudo airmon-ng check kill
 ```
 
 To start wifi module :
 ```bash
-$ sudo airmon-ng start wlan0 
+sudo airmon-ng start wlan0 
 ```
 
  To start wifi into monitoring mode for capturing packets :
