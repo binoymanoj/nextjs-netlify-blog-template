@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+h5 {
+  color: steelblue;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
 }
