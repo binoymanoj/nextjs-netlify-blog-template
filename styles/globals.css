@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+h3 {
+  
+}
+
 h5 {
   color: steelblue;
 }
@@ -40,6 +44,14 @@ header {
 
 header a {
   color: #fff;
+}
+
+footer {
+  background: steelblue;
+  color: #fff;
+  padding: 80px;
+  margin-top: 40px;
+  bottom: 0;
 }
 
 .container {
