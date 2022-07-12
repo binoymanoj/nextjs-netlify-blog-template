@@ -7,11 +7,22 @@
 }
 
 h3 {
-  
+  padding-bottom: 12px;
 }
 
-h5 {
-  color: steelblue;
+h4 {
+  background: steelblue;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+h6 {
+  background: steelblue;
+  color: #fff;
+  font-size: 13px;
+  bottom: 0;
+  text-align: center;
+  bottom: 0;
 }
 
 body {
@@ -52,6 +63,18 @@ footer {
   padding: 50px;
   margin-top: 40px;
   bottom: 0;
+}
+
+.footer {
+  background: steelblue;
+  color: #fff;
+  padding-bottom: 25px;
+  margin-top: 20px;
+  bottom: 0;
+}
+
+.footer a {
+  padding: 6px;
 }
 
 .container {
