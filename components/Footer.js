@@ -10,7 +10,7 @@ export default function Footer() {
             <h3>About :</h3> 
             <h4>
                 This blog is optimized for learning. Most of the contents are related to real-world hacking. 
-                You may use it for educational or informational purposes only. Hacking into other people is illegal.
+                You may use it for educational or informational purposes only. Hacking other people without permission is illegal.
             </h4>
 
             <div className="footer">
