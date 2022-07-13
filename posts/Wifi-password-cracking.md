@@ -1,5 +1,5 @@
 ---
-title: 'Wifi Password cracking'
+title: 'Wifi Password cracking.'
 date: 'July 8, 2022'
 excerpt: 'This blog will help you to crack wifi password using airmon-ng.'
 cover_image: '/images/posts/mac-with-coffee.jpg'
@@ -16,6 +16,7 @@ cover_image: '/images/posts/mac-with-coffee.jpg'
 ---
 ## Tools needed: 
 * kali-linux
+( I have covered how to <u>[install kali-linux](/blog/install-kali)</u> )
 * airmon-ng
 * airodump-ng
 * aireplay-ng
