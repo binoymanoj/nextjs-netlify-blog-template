@@ -2,7 +2,7 @@
 title: 'Installing kali-linux on USB drive(Live OS)'
 date: 'July 17, 2022'
 excerpt: 'How to install Kali-Linux on pendrive/liveOS with persistence.'
-cover_image: '/images/posts/kali-linux.jpg'
+cover_image: '/images/posts/kali-on-usb.jpg'
 ---
 
 # Installing Kali-Linux on Windows Subsystem for Linux.
