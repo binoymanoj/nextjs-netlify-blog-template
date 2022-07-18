@@ -60,8 +60,6 @@ You can see the usbdrive in which you have installed Kali-Linux.
 
 Select that usbdrive and follow instructions. 
 
-Set the timezone to "Asia/Kolkata".
-
 After completing the installation, you will see the Kali-Linux home screen.
 
 Now you can remove your USB drive.<br />

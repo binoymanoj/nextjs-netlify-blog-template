@@ -1,7 +1,7 @@
 ---
-title: 'Introduction to this blog page.'
+title: 'Install kali-linux on Raspberry pi-4.'
 date: 'July 16, 2022'
-excerpt: 'Introduction to this Blog page.'
+excerpt: 'How to install kali-linux on raspberry pi-4 or 3.'
 cover_image: '/images/posts/kali-on-rpi4.jpg'
 ---
 
@@ -14,6 +14,7 @@ ___
 * Raspberry pi 4 with minimum of 4GB RAM.
 * 32GB or higher capacity microSD card.
 * A PC/laptop for flashing the SD card.
+* An SD card reader.
 * A keyboard and mouse.
 * A monitor.
 * A power supply (Type-c adapter).
@@ -33,50 +34,41 @@ ___
 <u>**Step 1 :**</u> Downloading iso file.
     
 Download the bare-metal version of Kali-Linux 64-bit iso file from their official website.
-<u> [Download Kali-Linux baremetal](https://www.kali.org/get-kali/#kali-bare-metal) </u>
+<u> [Download Kali-Linux arm](https://www.kali.org/get-kali/#kali-arm) </u>
 
-<u>**Step 2 :**</u> Booting the Kali-Linux iso file on your USB drive.
+<u>**Step 2 :**</u> Booting the Kali-Linux iso file on your micro-SD card.
 
-Download a bootloader rufus.<br/>
-[click here to download rufus.](https://rufus.ie/en/)
+Download Raspberry-pi imager<br/>
+[click here to download raspberry-pi-imager](https://www.raspberrypi.com/software/)
 
-Plug-in your USB drive into your laptop or PC. And format your USB drive.
+And install the raspberry-pi-imager.
 
-Now open the rufus application.
+Plug-in your SD-card using SD-card reader into your laptop or PC. And format your SD-card.
 
-Select your USB drive and iso file from downloads.<br/>
-Then click "Start".
+Now open the raspberry-pi-imager application.
 
-It will start the booting iso file into your USB drive.
+Select your SD-card and iso file from downloads.<br/>
+Then click "Write".
+
+It will start the writing iso file into your USB drive.
 
 After completing successfully, remove your USB drive.
 
-<u>**Step 3 :**</u> Final step installing Kali-Linux.
+<u>**Step 3 :**</u> Final step using kali on raspberry-pi 4.
 
-Plug-in your USB drive into your laptop or PC, in which you want to install Kali-Linux.
+Remove the SD-card from your SD-card reader and plug it into your raspberry pi-4 or 3.
 
-And turn on your laptop or PC.
+Then connect your display, keyboard and mouse.
 
-When screen turns on keep on pressing the "F12" key. ( key may differ in different laptops or PCs )
+And finally connect your power supply (Type-c adapter).
 
-It will open the boot menu.
+It will turn-on and kali-linux will start.
 
-You can see the usbdrive in which you have installed Kali-Linux.
-
-Select that usbdrive and follow instructions. 
-
-Set the timezone to "Asia/Kolkata".
-
-After completing the installation, you will see the Kali-Linux home screen.
-
-Now you can remove your USB drive.<br />
-You can also remove the Kali-Linux iso file from your downloads. <br />
-And start using Kali-Linux.
-
+Start using kali-linux.
 ___
 
 ## Conclusion :
 
-In this article we have covered how to install Kali-Linux.
+In this article we have covered how to install Kali-Linux on Raspberry pi 3 or 4.
 
 If you have any questions, feel free to contact me. I will try to answer your questions.
