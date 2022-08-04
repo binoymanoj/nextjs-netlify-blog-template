@@ -12,7 +12,7 @@ ___
 ## Prerequisites:
 
 * Laptop or PC with minimum of 4GB RAM.
-* [Kali-Linux iso file](https://www.kali.org/)
+* <u>[Kali-Linux iso file](https://www.kali.org/)</u>
 * USB drive minimum of 8GB.
 
 ___
