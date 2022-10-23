@@ -11,10 +11,6 @@ export default function Home({ posts }) {
       <Head>
         <title>binoymanoj_Blog</title>
       </Head>
-      <h5>
-      This Page will help you to enhance your skill in Ethical hacking/Cyber Security.<br/>
-      Enjoy reading...
-      </h5>
       <div className="posts">
         {posts.map((post, index) => (
           <Post key={index} post={post} />
